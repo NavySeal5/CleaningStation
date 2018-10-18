@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>CleaningStation [B19]</name>
+  <name>CleaningStation</name>
   <author>NavySeal</author>
-  <targetVersion>0.19.2009</targetVersion>
+  <targetVersion>1.0.2059</targetVersion>
   <description>Adds a building to the game which automatically cleans its surroundings.\nRequires Hugslib</description>
 </ModMetaData>

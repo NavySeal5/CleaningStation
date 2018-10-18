@@ -1,0 +1,6 @@
+D:\Spiele\SteamApps\common\RimWorld\Mods\rimworldtest\Assemblies\CleaningStation.dll
+D:\Spiele\SteamApps\common\RimWorld\Mods\rimworldtest\Source\rimworldtest\obj\Debug\CleaningStation.csprojResolveAssemblyReference.cache
+D:\Spiele\SteamApps\common\RimWorld\Mods\rimworldtest\Source\rimworldtest\obj\Debug\CleaningStation.dll
+D:\Spiele\SteamApps\common\RimWorld\Mods\CleaningstationDev\Source\Cleaningstation\obj\Debug\CleaningStation.csprojResolveAssemblyReference.cache
+D:\Spiele\SteamApps\common\RimWorld\Mods\CleaningstationDev\Source\Cleaningstation\obj\Debug\CleaningStation.dll
+D:\Spiele\SteamApps\common\RimWorld\Mods\CleaningstationDev\Assemblies\CleaningStation.dll
