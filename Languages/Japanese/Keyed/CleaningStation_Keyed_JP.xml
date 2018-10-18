@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CleaningStation_settings_cleanTime_label>清掃間隔(チック単位：1秒＝60チック)</CleaningStation_settings_cleanTime_label>
+  <CleaningStation_settings_cleanTime_desc>60チック(1秒)から3600チック(60秒)の間で変更する事が可能です。変更はリロード時にのみ適用されます。</CleaningStation_settings_cleanTime_desc>
+
+  <CleaningStation_settings_cleanRadius_label>自動清掃器の範囲</CleaningStation_settings_cleanRadius_label>
+  <CleaningStation_settings_cleanRadius_desc>半径1マスから半径50マスまでの範囲になります。</CleaningStation_settings_cleanRadius_desc>
+
+  <CleaningStation_settings_useDynamicPower_label>動作に電力を消費する</CleaningStation_settings_useDynamicPower_label>
+  <CleaningStation_settings_useDynamicPower_desc>これを有効にすると、次に清掃行為が完了したときに更新されます。\nこれを無効にするにはゲームのリロードが必要です。</CleaningStation_settings_useDynamicPower_desc>
+
+  <CleaningStation_settings_powerConsumption_label>1マスあたりの消費電力</CleaningStation_settings_powerConsumption_label>
+  <CleaningStation_settings_powerConsumption_desc>1から100までの間(1と100を含む)\nこの値には、清掃するマスの数と、マス大きさに基づいて収穫逓減(マスの数が消費電力が合わなくなり減少すること)の係数が乗算されます。\n動作に電力を消費する場合にだけ有効になります。</CleaningStation_settings_powerConsumption_desc>
+
+</LanguageData>
