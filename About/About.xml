@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>CleaningStation</name>
-  <author>NavySeal</author>
-  <supportedVersions>
-	<li>1.0</li>
-  </supportedVersions>
-  <description>Adds a building to the game which automatically cleans its surroundings.\nRequires Hugslib</description>
+	<name>CleaningStation</name>
+	<author>NavySeal</author>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+	</supportedVersions>
+	<packageId>navyseal5.CleaningStation</packageId>
+	<description>Adds a building to the game which automatically cleans its surroundings.\nRequires Hugslib</description>
+	<loadAfter>
+		<li>UnlimitedHugs.HugsLib</li>
+	</loadAfter>
 </ModMetaData>

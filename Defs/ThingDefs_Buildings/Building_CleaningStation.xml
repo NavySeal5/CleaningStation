@@ -5,8 +5,9 @@
 		<label>Cleaning station</label>
 		<description>A machine that automatically cleans its surroungins.</description>
 		<thingClass>CleaningStation.Building_CleaningStation</thingClass>
+		<category> Building</category>
 		<graphicData>
-		  <texPath>Things/Building/CleaningStation/CStation</texPath>
+		  <texPath>Things/Building/CleaningStation/CleaningStation</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
 		  <shadowData>
 			<volume>(0.5,0.3,0.7)</volume>
@@ -24,7 +25,7 @@
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
     <pathCost>40</pathCost>
-    <blockWind>true</blockWind>
+    <blockWind>false</blockWind>
     <rotatable>false</rotatable>
     <fillPercent>0.4</fillPercent>
     <thingCategories>
