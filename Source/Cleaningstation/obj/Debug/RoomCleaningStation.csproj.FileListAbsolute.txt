@@ -1,3 +1,0 @@
-D:\Spiele\SteamApps\common\RimWorld\Mods\rimworldtest\Assemblies\RoomCleaningStation.dll
-D:\Spiele\SteamApps\common\RimWorld\Mods\rimworldtest\Source\rimworldtest\obj\Debug\RoomCleaningStation.csprojResolveAssemblyReference.cache
-D:\Spiele\SteamApps\common\RimWorld\Mods\rimworldtest\Source\rimworldtest\obj\Debug\RoomCleaningStation.dll
