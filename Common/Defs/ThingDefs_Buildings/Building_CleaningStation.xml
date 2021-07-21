@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="BuildingBase">
+		<defName>CleaningStation</defName>
+		<label>Cleaning station</label>
+		<description>A machine that automatically cleans its surroungins.</description>
+		<thingClass>CleaningStation.Building_CleaningStation</thingClass>
+		<category> Building</category>
+		<graphicData>
+		  <texPath>Things/Building/CleaningStation/CleaningStation</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <shadowData>
+			<volume>(0.5,0.3,0.7)</volume>
+			<offset>(0,0,-0.15)</offset>
+		  </shadowData>
+		  <damageData>
+			<rect>(0.234375,0,0.515625,0.984375)</rect>
+			<cornerTL>Damage/Corner</cornerTL>
+			<cornerTR>Damage/Corner</cornerTR>
+			<cornerBL>Damage/Corner</cornerBL>
+			<cornerBR>Damage/Corner</cornerBR>
+		  </damageData>
+		</graphicData>
+		 <minifiedDef>MinifiedThing</minifiedDef>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>40</pathCost>
+    <blockWind>false</blockWind>
+    <rotatable>false</rotatable>
+    <fillPercent>0.4</fillPercent>
+    <thingCategories>
+      <li>BuildingsMisc</li>
+    </thingCategories>
+    <statBases>
+      <WorkToBuild>4000</WorkToBuild>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>6</Mass>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <tickerType>Never</tickerType>
+    <costList>
+      <Steel>150</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+	<placeWorkers>
+      <li>CleaningStation.PlaceWorker_CleaningStation</li>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>250</basePowerConsumption>
+        <shortCircuitInRain>true</shortCircuitInRain>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+	  
+    </comps>
+    <designationCategory>Misc</designationCategory>
+    <researchPrerequisites>
+      <li>MicroelectronicsBasics</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	</ThingDef>
+
+</Defs>

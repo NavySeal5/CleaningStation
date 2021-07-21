@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<CleaningStation.label>Cleaning station</CleaningStation.label>
+	<CleaningStation.description>A machine that automatically cleans its surroundings.</CleaningStation.description>
+</LanguageData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CleaningStation.label>自動清掃器</CleaningStation.label>
+  <CleaningStation.description>周囲を自動的に清掃する機械です。</CleaningStation.description>
+  <Blueprint_CleaningStation.label>自動清掃器(設計)</Blueprint_CleaningStation.label>
+  <Blueprint_Install_CleaningStation.label>自動清掃器(移動先)</Blueprint_Install_CleaningStation.label>
+  <Frame_CleaningStation.label>自動清掃器(施工)</Frame_CleaningStation.label>
+  <Frame_CleaningStation.description>周囲を自動的に清掃する機械です。</Frame_CleaningStation.description>
+
+</LanguageData>

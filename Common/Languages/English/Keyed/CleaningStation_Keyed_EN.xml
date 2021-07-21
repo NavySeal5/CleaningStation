@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<CleaningStation_settings_cleanTime_label>Cleaning time in ticks(1second = 60 ticks)</CleaningStation_settings_cleanTime_label>
+	<CleaningStation_settings_cleanTime_desc>Between (inclusive) 60 and 3600.Change will only be applied at reload!</CleaningStation_settings_cleanTime_desc>
+	
+	<CleaningStation_settings_cleanRadius_label>Radius of the cleaning station</CleaningStation_settings_cleanRadius_label>
+	<CleaningStation_settings_cleanRadius_desc>Between (inclusive) 1 and 50</CleaningStation_settings_cleanRadius_desc>
+
+	<CleaningStation_settings_useDynamicPower_label>Use dynamic power comsumption.</CleaningStation_settings_useDynamicPower_label>
+	<CleaningStation_settings_useDynamicPower_desc>When enabling this it will update when the cleaning process is done the next time.\nDisabling this requires a reload.</CleaningStation_settings_useDynamicPower_desc>
+		
+	<CleaningStation_settings_powerConsumption_label>Powerconsumption per cell </CleaningStation_settings_powerConsumption_label>
+	<CleaningStation_settings_powerConsumption_desc>Between (inclusive) 1 and 100\nThis value will be multiplied with the amount of cells to clean and a diminishing-returns factor based on the amount of cells\n Only used if dynamic power consumption is enabled</CleaningStation_settings_powerConsumption_desc>
+	
+</LanguageData>
