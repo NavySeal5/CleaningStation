@@ -11,6 +11,14 @@
 	</supportedVersions>
 	<packageId>navyseal5.CleaningStation</packageId>
 	<description>Adds a building to the game which automatically cleans its surroundings.\nRequires Hugslib</description>
+	<modDependencies>
+		<li>
+            <packageId>UnlimitedHugs.HugsLib</packageId>
+            <displayName>HugsLib</displayName>
+            <downloadUrl>https://github.com/UnlimitedHugs/RimworldHugsLib/releases/latest</downloadUrl>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/818773962</steamWorkshopUrl>
+        </li>
+	</modDependencies>
 	<loadAfter>
 		<li>UnlimitedHugs.HugsLib</li>
 	</loadAfter>
